@@ -1,5 +1,5 @@
 let btnGen = document.querySelector('button');
-
+faker.setLocale('id_ID');
 btnGen.addEventListener('click', () => {
     let info = faker.helpers.createCard();
     
